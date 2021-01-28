@@ -83,17 +83,41 @@ header *{
 
 .s1top{
   height: 300px;
-  width: 100%;
+  width: 80%;
+  margin: auto;
   background-color: green;
 }
 
 .s1main{
   height: 300px;
-  width: 100%;
+  width: 80%;
+  margin: auto;
   background-color: red;
 }
 .s1bot{
   height: 500px;
-  width: 100%;
+  width: 80%;
+  margin: auto;
   background-color: blue;
+}
+
+.sezione2{
+  height: 600px;
+  width: 100%;
+  background-color: green;
+}
+
+.s2text{
+  height: 200px;
+  width: 80%;
+  margin: auto;
+  background-color: yellow;
+
+}
+
+.s2grill{
+  height: 400px;
+  width: 80%;
+  margin: auto;
+  background-color: pink;
 }
