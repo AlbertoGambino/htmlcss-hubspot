@@ -1,0 +1,67 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header{
+  background-color: red;
+  height: 200px;
+  width: 80%;
+  margin: auto;
+  position: fixed;
+  top: 0;
+  left: 10%;
+  display: inline-block;
+  z-index: 900;
+}
+
+header *{
+  float: left;
+}
+
+.hsopra{
+  height: 100px;
+  width: 100%;
+}
+
+.hno{
+  height: 100px;
+  width: 50%;
+  background-color: yellow;
+}
+
+.hne{
+  height: 100px;
+  width: 50%;
+  background-color: orange;
+}
+
+.hsotto{
+  height: 100px;
+  width: 100%;
+}
+
+.hso{
+  height: 100px;
+  width: 50%;
+  background-color: green;
+}
+.hse{
+  height: 100px;
+  width: 50%;
+  background-color: blue;
+}
+
+
+
+.jumbo{
+  margin-top: 200px;
+  height: 750px;
+  width: 100%;
+  background-image: url("img/jumbotron.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+
+}
