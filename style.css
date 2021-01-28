@@ -60,8 +60,23 @@ header *{
   height: 750px;
   width: 100%;
   background-image: url("img/jumbotron.png");
-  background-size: contain;
+  background-size: 100% 100%;
   background-position: center;
   background-repeat: no-repeat;
 
+}
+
+.jumbotext{
+  width: 30%;
+  background-color: purple;
+  height: 60%;
+  position: relative;
+  left: 10%;
+
+}
+
+.sezione1{
+ height: 1000px;
+ width: 100%;
+ background-color: rgba(0, 0, 0, 0.5);
 }
