@@ -60,7 +60,7 @@ header *{
   height: 750px;
   width: 100%;
   background-image: url("img/jumbotron.png");
-  background-size: 100% 100%;
+  background-size: 100%;
   background-position: center;
   background-repeat: no-repeat;
 
@@ -76,7 +76,24 @@ header *{
 }
 
 .sezione1{
- height: 1000px;
+ height: 1100px;
  width: 100%;
  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.s1top{
+  height: 300px;
+  width: 100%;
+  background-color: green;
+}
+
+.s1main{
+  height: 300px;
+  width: 100%;
+  background-color: red;
+}
+.s1bot{
+  height: 500px;
+  width: 100%;
+  background-color: blue;
 }
