@@ -104,6 +104,7 @@ header *{
 .sezione2{
   height: 600px;
   width: 100%;
+  margin: auto;
   background-color: green;
 }
 
@@ -120,4 +121,44 @@ header *{
   width: 80%;
   margin: auto;
   background-color: pink;
+}
+
+.sezione3{
+  height: 600px;
+  width: 100%;
+  margin: auto;
+  background-color: green;
+}
+
+.s3top{
+  height: 200px;
+  width: 80%;
+  margin: auto;
+  background-color: yellow;
+}
+
+.s3main{
+  height: 400px;
+  width: 80%;
+  margin: auto;
+  background-color: white;
+}
+footer{
+  height: 600px;
+  width: 100%;
+  margin: auto;
+  background-color: blue;
+}
+.felenchi{
+  height: 400px;
+  width: 80%;
+  margin: auto;
+  background-color: green;
+
+}
+.copyright{
+  height: 200px;
+  width: 80%;
+  margin: auto;
+  background-color: purple;
 }
