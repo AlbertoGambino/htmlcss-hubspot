@@ -2,58 +2,138 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
 }
 
 header{
-  background-color: red;
   height: 200px;
-  width: 80%;
-  margin: auto;
+  width: 100%;
   position: fixed;
   top: 0;
-  left: 10%;
   display: inline-block;
   z-index: 900;
 }
 
-header *{
+/* header *{
   float: left;
-}
+} */
 
 .hsopra{
   height: 100px;
   width: 100%;
+  border-bottom: 1px solid black;
+  background-color: grey;
 }
 
 .hno{
   height: 100px;
   width: 50%;
-  background-color: yellow;
+  float: left;
+}
+
+.linguacontatti{
+  width: 80%;
+  height: 100%;
+  margin-left: 20%;
+  line-height: 100px;
+  color: #33475b;
+}
+
+#tab{
+  border-right: black 1px solid;
+  padding-right: 10px;
+}
+
+#space1{
+padding-left: 10px;
+
 }
 
 .hne{
   height: 100px;
   width: 50%;
-  background-color: orange;
+  float: left;
 }
 
+.login{
+  width: 80%;
+  height: 100%;
+  margin-right: 20%;
+  line-height: 100px;
+}
+
+#lente{
+  color: #33475b;
+}
+
+#blogin{
+  color: #fe775a;
+  border: 1px solid #fe775a;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 0 20px;
+}
+
+.bghf{
+  background-color: #fe775a;
+  border-radius: 10px;
+  color: white;
+  padding: 10px;
+  border: none;
+}
+
+.login span{
+  float: right;
+  right: 20px;
+}
 .hsotto{
   height: 100px;
   width: 100%;
+  background-color: white;
 }
 
 .hso{
   height: 100px;
   width: 50%;
-  background-color: green;
+  float: left;
+
 }
+
+.logoc{
+  width: 80%;
+  height: 100%;
+  margin-left: 20%;
+
+}
+
+.logoh{
+  height: 100%;
+  width: 200px;
+  background-image: url("img/logo.svg");
+  background-repeat: no-repeat;
+  background-position: left;
+
+}
+
+
+
 .hse{
   height: 100px;
   width: 50%;
-  background-color: blue;
+  float: left;
 }
 
+.navdx{
+  width: 80%;
+  height: 100%;
+  margin-right: 20%;
+  line-height: 100px;
+}
 
+.navdx span{
+  margin: 0 5px;
+  float: right;
+}
 
 .jumbo{
   margin-top: 200px;
