@@ -14,9 +14,6 @@ header{
   z-index: 900;
 }
 
-/* header *{
-  float: left;
-} */
 
 .hsopra{
   height: 100px;
@@ -138,9 +135,8 @@ padding-left: 10px;
 .jumbo{
   margin-top: 200px;
   height: 750px;
-  width: 100%;
   background-image: url("img/jumbotron.png");
-  background-size: 100%;
+  background-size: 100% 100%;
   background-position: center;
   background-repeat: no-repeat;
 
@@ -148,13 +144,41 @@ padding-left: 10px;
 
 .jumbotext{
   width: 30%;
-  background-color: purple;
   height: 60%;
   position: relative;
   left: 10%;
 
 }
 
+.sloganj{
+  width: 100%;
+  font-weight: 800;
+  font-size: 23px;
+  position: relative;
+  top: 50px;
+
+}
+
+.pj{
+  position: relative;
+  top: 90px;
+}
+
+.bj{
+  position: relative;
+  top: 130px;
+}
+
+#bigger{
+  padding: 20px 30px;
+}
+
+
+.fj{
+  position: relative;
+  top: 160px;
+  font-size: small;
+}
 .sezione1{
  height: 1100px;
  width: 100%;
