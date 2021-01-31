@@ -425,26 +425,125 @@ font-size: 20px;
   font-size: 25px;
 }
 
+.s1text1{
+  height: 70%;
+  width: 100%;
+  color: white;
+  text-align: center;
+  line-height: 130px;
+}
+
+.s1text2{
+  color: white;
+  text-align: center;
+}
+
 .sezione2{
   height: 600px;
   width: 100%;
   margin: auto;
-  background-color: green;
+  background: linear-gradient(-45deg, #00C9A7, #008E9B);
 }
 
 .s2text{
   height: 200px;
   width: 80%;
   margin: auto;
-  background-color: yellow;
 
 }
+
 
 .s2grill{
   height: 400px;
   width: 80%;
   margin: auto;
-  background-color: pink;
+}
+
+.ligrill{
+  width: 25%;
+  height: 50%;
+  float: left;
+  border: 1px solid white;
+}
+
+.iconagrill{
+height: 40%;
+width: 200px;
+margin: auto;
+background-image: url("img/homepage_community_agency.svg");
+background-repeat: no-repeat;
+background-position: center;
+}
+
+#iconagrill2{
+background-image: url("img/homepage_community_blog.svg");
+}
+
+#iconagrill3{
+background-image: url("img/homepage_community_academy.svg");}
+
+#iconagrill4{
+background-image: url("img/homepage_community_inbound.svg");
+}
+
+#iconagrill5{
+background-image: url("img/homepage_community_connect.svg");
+}
+
+#iconagrill6{
+background-image: url("img/homepage_community_globe.svg");
+}
+
+#iconagrill7{
+background-image: url("img/homepage_community_followers.svg");
+}
+
+#iconagrill8{
+background-image: url("img/growthhub-white-small-1.svg");
+}
+
+.numerogrill{
+  height: 40%;
+  text-align: center;
+  color: white;
+  font-size: 50px;
+  font-weight: 800;
+
+}
+
+.footgrill{
+  height: 20%;
+  text-align: center;
+  color: white;
+
+}
+
+#grill1{
+  border-top: none;
+  border-left: none;
+}
+
+#grill2{
+  border-top: none;
+}
+
+#grill4{
+border-top: none;
+border-right: none;
+}
+
+#grill5{
+border-bottom: none;
+border-left: none;
+}
+
+#grill6{
+border-bottom: none;
+}
+
+#grill8{
+border-bottom: none;
+border-right: none;
 }
 
 .sezione3{
