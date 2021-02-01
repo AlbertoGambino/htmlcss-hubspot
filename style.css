@@ -699,18 +699,90 @@ footer{
   height: 600px;
   width: 100%;
   margin: auto;
-  background-color: blue;
+  background-color: #32495b;
 }
 .felenchi{
-  height: 400px;
+  min-height: 400px;
   width: 80%;
   margin: auto;
-  background-color: green;
+  background-color: #32495b;
 
 }
+
+.felenco{
+  height: 100%;
+  width: 25%;
+  float: left;
+
+}
+
+.felenco li:first-child{
+  color: white;
+}
+
+.felenco li span{
+  margin: 10px;
+}
+
+.felenco li{
+  list-style-type: none;
+  margin: 20px;
+  color: #cbd6e2;
+}
+
+#footbut{
+  padding: 10px;
+  border-radius: 10px;
+}
+
 .copyright{
   height: 200px;
   width: 80%;
   margin: auto;
-  background-color: purple;
+  background-color: #32495b;
+}
+
+.flanguage{
+  width: 100%;
+  height: 50px;
+  line-height: 50px;
+  border-bottom: 2px solid #cbd6e2;
+  text-align: center;
+}
+
+.flanguage span{
+  margin: 5px;
+  color: #cbd6e2;
+}
+
+.final{
+  height: 150px;
+  width: 50%;
+  float: left;
+}
+
+.finalicon{
+  width: 30%;
+  height: 30%;
+  background-image: url("img/logo_gray.svg");
+  background-repeat: no-repeat;
+  background-position: left;
+  margin-top: 50px;
+}
+
+.finaltext{
+  color: #cbd6e2;
+}
+
+.final2{
+  height: 150px;
+  line-height: 150px;
+  width: 50%;
+  float: left;
+  text-align: right;
+  color: #cbd6e2;
+}
+
+.final2 span{
+  margin: 5px;
 }
