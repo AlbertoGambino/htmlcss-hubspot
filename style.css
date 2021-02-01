@@ -454,8 +454,8 @@ font-size: 20px;
 
 
 .s2grill{
-  height: 400px;
-  width: 80%;
+  height: 350px;
+  width: 60%;
   margin: auto;
 }
 
@@ -547,25 +547,154 @@ border-right: none;
 }
 
 .sezione3{
-  height: 600px;
+  min-height: 500px;
   width: 100%;
   margin: auto;
-  background-color: green;
+  background-color: white;
 }
 
 .s3top{
   height: 200px;
   width: 80%;
+  margin: 30px auto;
+}
+
+.s3topsx{
+  width: 40%;
+  height: 100%;
+  float: left;
+}
+
+.s3topsxnum{
+  height: 50%;
+  text-align: center;
+  font-weight: bold;
+  font-size: 50px;
+  color: black;
+  padding-top: 25px;
+}
+
+.s3topsxel{
+  text-align: center;
+  padding-top: 25px;
+}
+
+.s3topdx{
+  width: 60%;
+  height: 100%;
+  float: right;
+}
+
+.s3topdxlogoc{
+  width: 25%;
+  height: 50%;
+  float: left;
+}
+
+.s3topdxlogo{
+  width: 80%;
+  height: 80%;
   margin: auto;
-  background-color: yellow;
+  background-image: url("img/atlassian.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+#doordash{
+ background-image: url("img/doordash.png");
+}
+
+#crowd{
+ background-image: url("img/g2crowd-logo@2x.png");
+}
+
+#purple{
+ background-image: url("img/purple-logo@2x.png");
+}
+
+#subaru{
+background-image: url("img/subaru.png");
+}
+
+#wistia{
+background-image: url("img/wistia.png");
+}
+
+#classpass{
+background-image: url("img/classpass.png");
+}
+
+#vmware{
+background-image: url("img/vmware.png");
 }
 
 .s3main{
-  height: 400px;
+  min-height: 500px;
   width: 80%;
-  margin: auto;
+  margin: 30px auto;
   background-color: white;
 }
+
+.s3main::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+.s3mainsx{
+  width: 45%;
+  height: 500px;
+  float: left;
+}
+
+.s3mainsx div{
+  margin: 10px 45px;
+}
+
+.s3mainsxr1{
+  height: 150px;
+  font-weight: 800;
+  font-size: 35px;
+
+
+
+  /* margin: 35px 45px; */
+}
+
+.s3mainsxr2{
+  height: 100px;
+  /* margin: 35px 45px; */
+}
+
+.s3mainsxr3{
+  height: 100px;
+  line-height: 100px;
+  /* margin: 35px 45px; */
+}
+
+.s3mainsxr4{
+  height: 100px;
+  padding-top: 30px;
+  vertical-align: middle;
+  /* margin: 35px 45px; */
+  /* padding-bottom: 50px; */
+}
+
+
+
+.s3maindx{
+  width: 55%;
+  height: 500px;
+  float: left;
+  background-image: url("img/woman.webp");
+  background-size: contain;
+  background-position: right;
+  background-repeat: no-repeat;
+
+}
+
 footer{
   height: 600px;
   width: 100%;
