@@ -28,12 +28,18 @@ header{
   float: left;
 }
 
+.linguacontatti a{
+  text-decoration: none;
+  color: #33475b;
+
+}
+
 .linguacontatti{
   width: 80%;
   height: 100%;
   margin-left: 20%;
   line-height: 100px;
-  color: #33475b;
+
 }
 
 #tab{
@@ -112,6 +118,11 @@ padding-left: 10px;
 
 }
 
+.logoh a{
+  text-decoration: none;
+  color: white;
+  padding: 100px;
+}
 
 
 .hse{
@@ -125,6 +136,11 @@ padding-left: 10px;
   height: 100%;
   margin-right: 20%;
   line-height: 100px;
+}
+
+.navdx a{
+  text-decoration: none;
+  color: black;
 }
 
 .navdx span{
@@ -287,7 +303,7 @@ padding-left: 10px;
 }
 
 .linea{
-  width: 75%;
+  width: 70%;
   height: 50%;
   float: right;
   border-bottom: 2px solid black;
@@ -381,7 +397,8 @@ padding-left: 10px;
 
 .ptwins{
   height: 10%;
-  width: 100%;
+  width: 95%;
+  margin: auto;
 
   text-align: center;
 }
@@ -426,7 +443,7 @@ font-size: 20px;
 }
 
 .s1text1{
-  height: 70%;
+  min-height: 70%;
   width: 100%;
   color: white;
   text-align: center;
@@ -730,18 +747,25 @@ footer{
 
 }
 
-.felenco li:first-child{
+.felenco ul a:first-child{
   color: white;
 }
 
-.felenco li span{
+.felenco span{
   margin: 10px;
+  color: #cbd6e2;
+  list-style-type: none;
+
 }
 
 .felenco li{
   list-style-type: none;
   margin: 20px;
   color: #cbd6e2;
+}
+
+.felenco a{
+ text-decoration: none;
 }
 
 #footbut{
@@ -762,6 +786,10 @@ footer{
   line-height: 50px;
   border-bottom: 2px solid #cbd6e2;
   text-align: center;
+}
+
+.flanguage a{
+text-decoration: none;
 }
 
 .flanguage span{
@@ -794,6 +822,11 @@ footer{
   width: 50%;
   float: left;
   text-align: right;
+  color: #cbd6e2;
+}
+
+.final2 a{
+  text-decoration: none;
   color: #cbd6e2;
 }
 
